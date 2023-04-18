@@ -15,6 +15,9 @@ https://www.notion.so/7-7b61e47096184f6c8c1cb718d8807ec5
 &nbsp; &nbsp;&nbsp; &nbsp;  : Scikit Learn으로 토픽별 주요 기사 추출        
 &nbsp; &nbsp;&nbsp; &nbsp;  : 주요기사 추출후 각 기사에 대하여 Text Rank로 Matrix을 활용하여 핵심단어(키워드)추출     
 &nbsp; &nbsp;&nbsp; &nbsp;  : 기사요약도 키워드 추출과 동일하게 Text Rank로 Matrix을 활용하여 주요기사 요약    
-📬 5) Crontab 활용하여 Scheduling
+📬 5) Crontab 활용하여 Scheduling   
 &nbsp; &nbsp;&nbsp; &nbsp;  : Crontab 활용하여 매일 아침 전날 자료지우고, Scrpay 실행하여 새로운 자료 가져오고 main.py 실행하여 이메일 발송 할 수 있도록 설정!      
 📬 5) HTML 문서 이메일로 발송시키기
+&nbsp; &nbsp;&nbsp; &nbsp;  : HTML문서 템플릿 제작하여 원하는 내용 삽입하여 메일 발송 
+
+
