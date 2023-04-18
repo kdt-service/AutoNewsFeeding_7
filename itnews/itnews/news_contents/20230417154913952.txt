@@ -1,0 +1,17 @@
+Samsung Galaxy Watch 5 Pro (left) and Samsung Pay (Samsung Electronics)
+           
+          
+          The highly publicized debut of Apple Pay last month has prompted unexpected calls in South Korea for Samsung Pay to be usable with the Galaxy Watch.
+          Apple Pay became available in March here nearly a decade after its debut in the US in 2014. All Apple mobile devices, including iPhones and Apple Watches, support the new feature based on near-field communication technology.
+          Amid the buzz surrounding Apple Pay, a growing number of Galaxy Watch users are now wondering why they cannot use Samsung Pay in the same fashion.
+          Samsung Pay basically supports both NFC and magnetic secure transmission technologies. Despite the lack of NFC readers, Samsung Pay got a foothold here as MST works with existing credit card readers at stores.
+          The issue now though is that Samsung’s smartwatches do not support Samsung Pay in Korea, though they do abroad. Because of NFC readers being ubiquitous overseas, possibly due to the earlier adoption of Apple Pay, Galaxy Watch users abroad can pay with Samsung Pay.
+          The Gear S3, launched in 2016, was the last Samsung smartwatch that was equipped with the MST module. But Samsung dropped the feature from all its watch models the following year, as it focused on making them thinner, lighter and cheaper.
+          According to industry sources, Samsung is reviewing reviving the payment feature in an apparent move to respond to Apple Pay, which has received an explosive reaction among Korea's young people. Samsung may be the dominant player that makes up almost 80 percent of smartphone sales in Korea, but when it comes to the younger generation in their 20s and 30s, the figure declines to 50 percent, competing head-on with its archrival, Apple.
+          Sources say the NFC function can be activated with a simple software upgrade, while it would be a tougher decision to add again the MST module, as it comes with a higher price tag and a bigger device size.
+          “If it supports NFC-based Samsung Pay, that would widen the market overall, a boon for Apple Pay as well,” an industry official said on condition of anonymity. “For Samsung, there is no need to rush. It is likely to take action after NFC readers are sufficiently adopted.”
+          Of the nation’s 2.9 million stores nationwide, only 70,000 of them are estimated to have installed NFC readers so far. The lack of NFC readers is cited as the key obstacle for Apple Pay to expand its presence, which is also directly linked to its future iPhone sales.
+          A Samsung official declined to comment on the possible addition of Samsung Pay to its Galaxy Watches, saying their top priority is offering “the most convenient service to users.”
+          “To bring the Samsung Pay payment service to Galaxy Watch products, it requires discussions with related industries including credit card companies due to various issues such as security certification,” the Samsung official said.
+          “If Samsung adds the feature, it will aim to provide 100 percent available service as with Samsung Pay (on smartphones)."
+          By Jie Ye-eun(yeeun@heraldcorp.com)
