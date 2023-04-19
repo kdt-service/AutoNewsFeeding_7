@@ -17,10 +17,10 @@ news7_final 폴더를 통해 프로젝트 최종 코드 확인가능
 &nbsp; &nbsp; &nbsp; &nbsp; : 뉴스기사 본문에서 특수기호, 이미지 출처 등 뉴스기사 내용과 관련 없는 내용 삭제    
 &nbsp; &nbsp; &nbsp; &nbsp; 📬  정규표현식 활용  
 4) NLP - Topic Modeling  LDA로 뉴스기사들 주제별로 분류하기   
-&nbsp; &nbsp;&nbsp; &nbsp;  : Scikit Learn으로 토픽별 주요 기사 추출        
-&nbsp; &nbsp;&nbsp; &nbsp;  : 주요기사 추출후 각 기사에 대하여 Text Rank로 Matrix을 활용하여 핵심단어(키워드)추출     
-&nbsp; &nbsp;&nbsp; &nbsp;  : 기사요약도 키워드 추출과 동일하게 Text Rank로 Matrix을 활용하여 주요기사 요약   
-5) Figmam , Stripo.email 활용하여 HTML문서 양식 만들기   
+&nbsp; &nbsp;&nbsp; &nbsp;  📬 Scikit Learn으로 토픽별 주요 기사 추출        
+&nbsp; &nbsp;&nbsp; &nbsp;  📬 주요기사 추출후 각 기사에 대하여 Text Rank로 Matrix을 활용하여 핵심단어(키워드)추출     
+&nbsp; &nbsp;&nbsp; &nbsp;  📬 기사요약도 키워드 추출과 동일하게 Text Rank로 Matrix을 활용하여 주요기사 요약   
+5) Figma , Stripo.email 활용하여 HTML문서 양식 만들기   
 &nbsp; &nbsp;&nbsp; &nbsp;  : 메일로 발송할 HTML 문서 양식 디자인 만들기
 6) Crontab 활용하여 Scheduling & 자동화    
 &nbsp; &nbsp;&nbsp; &nbsp;  📬 Crontab 활용하여 전날 자료 지우기, 최신 기사 Scrawl, 메일발송까지 매일 아침 실행하도록 설정
