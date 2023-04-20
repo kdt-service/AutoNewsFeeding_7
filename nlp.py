@@ -61,16 +61,13 @@ def topicmodeling(data):
     news= data
     #tokenization함수 만들기
     def tokenize_korean_text(text):
-        
         okt = konlpy.tag.Okt()
-        Okt_morphs = okt.pos(text)   # stem=True로 설정하면 동사원형으로 바꿔서 return, 단어 간 관계 파악 위함으로 설정 안함 
-        
+        okt_morphs = okt.pos(text) 
         words = []
         stopwords = ['하는', '있다', '있는', '위해', '통해', '한다', '때문', '했다'] # 불용어 사전  
-        for word, pos in Okt_morphs:
-            if pos in ['Adjective', 'Verb', 'Noun', 'Alpha', 'Number'] and word not in stopwords:  # 이 경우에는 형용사, 동사, 명사, 영어, 숫자만 남김
+        for word, pos in okt_morphs:
+            if pos in ['Adjective', 'Verb', 'Noun', 'Alpha', 'Number'] and word not in stopwords:  # 형용사, 동사, 명사, 영어, 숫자만 남김
                 words.append(word)
-
         words_str = ' '.join(words)
         return words_str
     
@@ -78,23 +75,17 @@ def topicmodeling(data):
     tokenized_list = []
     for text in news['content']:
         tokenized_list.append(tokenize_korean_text(text))
-    print(len(tokenized_list))
     
-   
     #2. 단어가 1-20개만 포함된 corpus 삭제  
     drop_corpus = []
     for index in range(len(tokenized_list)):
         corpus = tokenized_list[index]
         if len(set(corpus.split())) < 21:   # 같은 단어 1-20개만 반복되는 corpus도 지우기 위해 set()을 사용
             news.drop(index=[index], axis=0, inplace=True)
-            drop_corpus.append(corpus)
-                    
+            drop_corpus.append(corpus)                   
     for corpus in drop_corpus:
         tokenized_list.remove(corpus)
-
     news.reset_index(drop=True, inplace=True)
-    print(len(tokenized_list))
-    print(len(news))
 
     #3.vectorization 
     from sklearn.feature_extraction.text import CountVectorizer
@@ -102,12 +93,11 @@ def topicmodeling(data):
     count_vectorizer = CountVectorizer() # total number of tokens 구하기
     X = count_vectorizer.fit_transform(tokenized_list)
     word_count = X.toarray().sum(axis=1)
-    print("Total number of tokens:", word_count.sum())
+    
     count_vectorizer = CountVectorizer() # total number of unique tokens 구하기
     X = count_vectorizer.fit_transform(tokenized_list)
     unique_tokens = count_vectorizer.get_feature_names()
     count_unique_tokens = len(unique_tokens)
-    print("Total number of unique tokens:", len(unique_tokens))
 
     #LDA 는 Count기반의 Vectorizer만 적용 
     count_vectorizer_0 = CountVectorizer(max_df=0.8, max_features=round(count_unique_tokens*0.8), min_df=10, ngram_range=(1,2))
