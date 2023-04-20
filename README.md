@@ -13,8 +13,8 @@ news7_final 폴더를 통해 프로젝트 최종 코드 확인가능
 &nbsp; &nbsp;&nbsp; &nbsp;  : 칼럼명은 id, platform, main_category, sub_category, title, content, writer, writed_at 정보 가져오기   
 &nbsp; &nbsp; &nbsp; &nbsp;  📬  해당 일자의 마지막 기사 확인방법 (마지막 페이지의 기사 개수 확인, 그 전 페이지의 기사와 동일한지 확인으로 해결!)   
 2) Scrapy 활용하여 대용량 데이터 가져오기 + csv로 저장하기   
-&nbsp; &nbsp; &nbsp; &nbsp;  📬 3시간에 한번씩 Scrapy 가동! 가장 최신 url들 last_urls_new에 갱신. last_urls_original은 그 전 scrpay에서 최신 urls저장. 
-&nbsp; &nbsp; &nbsp; &nbsp;  📬 Scrpay 양을 나눠서 함으로써 서버에 부담을 줄여 봇으로 차단되는 상황 방지 가능! 
+&nbsp; &nbsp; &nbsp; &nbsp;  📬 3시간에 한번씩 Scrapy 가동! 가장 최신 url들 last_urls_new에 갱신. last_urls_original은 그 전 scrpay에서 최신 urls저장.      
+&nbsp; &nbsp; &nbsp; &nbsp;  📬 Scrpay 양을 나눠서 함으로써 서버에 부담을 줄여 봇으로 차단되는 상황 방지 가능!      
 3) Data Cleansing 작업    
 &nbsp; &nbsp; &nbsp; &nbsp; : 뉴스기사 본문에서 특수기호, 이미지 출처 등 뉴스기사 내용과 관련 없는 내용 삭제    
 &nbsp; &nbsp; &nbsp; &nbsp; 📬  정규표현식 활용  
