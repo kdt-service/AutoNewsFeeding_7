@@ -1,0 +1,6 @@
+# 10시 정각에 remove.py 실행
+0 10 * * * /usr/bin/python3 /home/ubuntu/news7/remove.py > /home/ubuntu/news7/log_file 2>&1
+# 3시간마다  마다 scrapy 실행 -> 오전 9시, 12시, 15시 18시에 실행하게됨 (AWS EC2w 종료시각에는 작동불가) 
+0 */3 * * * cd /home/ubuntu/news7/itnews && /home/ubuntu/.local/bin/scrapy crawl itnewsspider > /home/ubuntu/news7/log_file 2>&1
+# 오전 9시 30분에 main.py 실행하여 메일 발송시키기
+30 9 * * * /usr/bin/python3 /home/ubuntu/news7/main.py > /home/ubuntu/news7/log_file 2>&1 
