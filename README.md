@@ -8,7 +8,11 @@ news7_final 폴더를 통해 프로젝트 최종 코드 확인가능
 [🗞️[2023-04-19 IT 간추린 뉴스] 오늘의 주요 IT 뉴스를 확인해보세요🗞️.pdf](https://github.com/kdt-service/AutoNewsFeeding_7/files/11267705/2023-04-19.IT.IT.pdf) 
 
 
+
+
 # Step by Step
+![NLP 프로젝트 프로세스](https://user-images.githubusercontent.com/84755366/233911708-8ce668b4-2909-4197-9685-23cb7cab8d6f.png)
+
 1) BeautifulSoup 으로 다음뉴스 사회부분 뉴스기사 크롤링   
 &nbsp; &nbsp;&nbsp; &nbsp;  : 칼럼명은 id, platform, main_category, sub_category, title, content, writer, writed_at 정보 가져오기   
 &nbsp; &nbsp; &nbsp; &nbsp;  📬  해당 일자의 마지막 기사 확인방법 (마지막 페이지의 기사 개수 확인, 그 전 페이지의 기사와 동일한지 확인으로 해결!)   
